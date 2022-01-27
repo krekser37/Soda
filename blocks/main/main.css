@@ -1,0 +1,23 @@
+.main {
+  margin: 0;
+  padding: 0;
+}
+.main__title {
+  font-weight: 500;
+  font-size: 60px;
+  line-height: 60px;
+  letter-spacing: 0.5px;
+  color: #1E3264;
+  text-align: center;
+  margin: 120px auto;
+}
+@media screen and (max-width: 700px) {
+  .main__title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: 0.5px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+}/*# sourceMappingURL=main.css.map */

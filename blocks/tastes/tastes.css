@@ -1,0 +1,75 @@
+.tastes {
+  margin: 0 50px;
+  padding: 90px 100px;
+  background-color: #9960F6;
+  display: flex;
+  justify-content: space-between;
+}
+@media screen and (max-width: 1350px) {
+  .tastes {
+    padding: 60px 60px;
+    margin-left: 40px;
+    margin-right: 40px;
+  }
+}
+@media screen and (max-width: 1100px) {
+  .tastes {
+    display: block;
+  }
+}
+@media screen and (max-width: 700px) {
+  .tastes {
+    padding: 20px 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+}
+.tastes__text {
+  max-width: 386px;
+}
+.tastes__title {
+  font-weight: 600;
+  font-size: 52px;
+  line-height: 48px;
+  color: #FFFFFF;
+  margin: 0;
+}
+@media screen and (max-width: 700px) {
+  .tastes__title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: 0.3px;
+  }
+}
+.tastes__paragraph {
+  margin: 30px 0 60px;
+  padding: 0;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 31px;
+  color: #FFFFFF;
+  letter-spacing: 0.3px;
+  opacity: 0.8;
+}
+@media screen and (max-width: 700px) {
+  .tastes__paragraph {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    letter-spacing: 0.3px;
+    margin-top: 14px;
+    margin-bottom: 50px;
+  }
+}
+@media screen and (max-width: 1350px) {
+  .tastes__image {
+    min-width: 548px;
+  }
+}
+@media screen and (max-width: 700px) {
+  .tastes__image {
+    min-width: 240px;
+    max-height: 160px;
+  }
+}/*# sourceMappingURL=tastes.css.map */

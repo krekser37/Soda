@@ -1,0 +1,158 @@
+.ingredients {
+  background-color: #8556F8;
+  padding: 90px 100px;
+  margin: 0 50px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  max-height: 400px;
+  justify-content: space-between;
+  position: relative;
+
+  @media screen and (max-width: $tablet) {
+    padding: 60px 60px;
+    max-height: none;
+    margin-left: 40px;
+    margin-right: 40px;
+  }
+
+  @media screen and (max-width: $mobile) {
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 20px 20px;
+  }
+
+&__text {
+  max-width: 386px;
+  order: 1;
+  
+  @media screen and (max-width: $tablet) {
+    margin-bottom: 100px;
+  }
+
+  @media screen and (max-width: $mobile) {
+    margin-bottom: 0;
+  }
+}
+
+&__title {
+  font-weight: 600;
+  font-size: 52px;
+  line-height: 48px;
+  color: #FFFFFF;
+  margin: 0;
+
+  @media screen and (max-width: $mobile){
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: 0.3px;
+  }
+}
+
+&__paragraph {
+  margin: 30px 0 0;
+  padding: 0;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 31px;
+  color: #FFFFFF;
+  letter-spacing: 0.3px;
+  opacity: 0.8;
+
+  @media screen and (max-width: $mobile){
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    letter-spacing: 0.3px;
+    margin-top: 14px;
+    margin-bottom: 60px;
+  }
+
+}
+
+&__button {
+  order: 2;
+  padding-left: 21px;
+  padding-right: 21px;
+  margin-top: 205px;
+
+  @media screen and (max-width: $tablet){
+    order: 3;
+    margin-top: 100px;
+  }
+
+  @media screen and (max-width: $mobile){
+    margin-top: 60px;
+  }
+}
+
+&__lists {
+    padding: 0;
+    margin: 0;
+    order: 3;
+    align-self: flex-end;
+    min-width: 255px;
+
+    @media screen and (max-width: $tablet){
+      order: 2;
+      align-self: flex-start;
+  }
+
+  @media screen and (max-width: $mobile){
+    min-width: 240px;
+  }
+}
+
+&__list {
+    list-style-type: none;
+    padding-top: 30px;
+    padding-bottom: 4px;
+    /* padding: 30px auto 4px 0; */
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 50px;
+    color: #FFFFFF;
+    border-bottom: 1px solid #FFFFFF;
+
+&:first-of-type{
+  padding-top: 0;
+}
+
+@media screen and (max-width: $mobile){
+  font-size: 22px;
+  line-height: 22px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+}
+
+&__image {
+  position: absolute;
+
+  @media screen and (max-width: $mobile){
+    display: none;
+  }
+
+  &_is_big {
+    top: 120px;
+    left: 610px;
+
+    @media screen and (max-width: $tablet){
+      top: 300px;
+      left: 410px;
+    }
+  }
+
+  &_is_little {
+    bottom: 120px;
+    left: 710px;
+
+    @media screen and (max-width: $tablet){
+      top: 500px;
+      left: 460px;
+    }
+  }
+}
+}

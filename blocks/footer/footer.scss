@@ -1,0 +1,134 @@
+.footer {
+    background-color: $bg-color-footer;
+
+    &__figure {
+      width: 300px;
+      height: 300px;
+      border-radius: 50%;
+      background-image: radial-gradient(rgba(53, 48, 255, 0.3) 0px 76px, rgba(85,81,255, 0.35) 76px 115px, $bg-color-header 115px 150px);
+      position: relative;
+      min-width: 300px;
+
+      @media screen and (max-width: $tablet){
+        width: 200px;
+        height: 200px;
+        min-width: 200px;
+        background-image: radial-gradient(rgba(53, 48, 255, 0.3) 0px 50px, rgba(85,81,255, 0.35) 50px 76px, $bg-color-header 76px 100px);
+      }
+
+      @media screen and (max-width: $mobile){
+        margin-left: 40px;
+        margin-right: 40px;
+  
+      }
+    }
+
+    &__column {
+      margin-left: 247px;
+
+      @media screen and (max-width: $tablet){
+        margin-left: 100px;
+      }
+
+      @media screen and (max-width: $mobile){
+        margin-left: 0;
+        text-align: center;
+      }
+    }
+
+    &__columns {
+      padding: 100px 395px 100px 150px;
+      display: flex;
+      justify-content: space-between;
+
+      @media screen and (max-width: $tablet){
+       padding: 120px 119px 50px 50px;
+      }
+
+      @media screen and (max-width: $mobile){
+       display: block;
+       padding: 60px 20px 20px;
+       margin: 0;
+       }
+    }
+
+    &__title {
+      color: $color-title;
+      font-size: 30px;
+      line-height: 30px;
+      font-weight: 700;
+      background-position: center;
+      margin: 135px 106px;
+      position: absolute;
+
+      @media screen and (max-width: $tablet){
+        margin: 92px 72px;
+        font-size: 20px;
+        line-height: 14px;
+        font-weight: 500;
+       }
+    }
+
+    &__navigation {
+      display: flex;
+
+      @media screen and (max-width: $mobile){
+        display: block;
+       }
+    }
+
+    &__links {
+      margin: 0;
+      padding: 0;
+    }
+
+    &__link {
+      list-style-type: none;
+      margin: 0 0 3px;
+      padding: 0;
+      font-size: 17px;
+      line-height: 28px;
+      letter-spacing: 0.3px;
+      color: $color-base;
+
+      &:hover {
+        opacity: 0.7;
+      }
+
+      &:last-child {
+        margin-bottom: 0;
+      }
+    }
+
+    &__autor {
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 15px;
+      letter-spacing: 0.3px;
+      color: $color-base;
+      margin: 142px 0 0;
+
+      @media screen and (max-width: $mobile){
+        margin-top: 50px;
+       }
+    }
+
+    &__column-element_is_heading {
+      margin: 0 145px 20px 0;
+      font-weight: 500;
+      font-size: 23px;
+      line-height: 33px;
+      color: $color-base;
+
+      @media screen and (max-width: $tablet){
+        margin-right: 96px;
+       }
+
+       @media screen and (max-width: $mobile){
+        margin-right: 0;
+        margin-top: 50px;
+       }
+    }
+
+  
+}

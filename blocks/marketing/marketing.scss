@@ -1,0 +1,73 @@
+.marketing {
+  margin: 70px 180px 0 154px;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  overflow: hidden;
+  max-height: 510px;
+
+  @media screen and (max-width: $tablet){
+    display: block;
+    margin: 120px 54px 0;
+    max-height: 840px;
+  }
+
+  @media screen and (max-width: $mobile){
+    margin: 50px 20px 0;
+    max-height: 437px;
+  }
+
+
+  &__title {
+    max-width: 460px;
+    text-align: start;
+    margin-bottom: auto;
+    margin-left: 0;
+    letter-spacing: 0.3px;
+    line-height: 67px;
+
+    @media screen and (max-width: $tablet){
+      text-align: center;
+      margin: 0 84px 120px;
+    }
+
+    @media screen and (max-width: $mobile){
+      line-height: 24px;
+      margin: 0 0 50px;
+    }
+  }
+  &__octagon {
+    position: absolute;
+    right: 330px;
+    top: 20px;
+
+    @media screen and (max-width: $tablet){
+      left: -14px;
+      top: 330px;
+    }
+
+    @media screen and (max-width: $mobile){
+      width: 98px;
+      left: -14px;
+      top: 330px;
+    }
+  }
+
+  &__image {
+  object-fit: cover;
+  width: 430px;
+  height: 610px;
+
+  @media screen and (max-width: $tablet){
+    margin-left: 106px;
+  }
+
+  @media screen and (max-width: $mobile){
+    width: 280px;
+    margin-left: 0;
+    height: 397px;
+  }
+  }
+
+
+} 
