@@ -172,7 +172,6 @@
       &:active {
         border: none;
         border-bottom: 2px solid $color-base;
-
       }
 
       &:hover {
@@ -191,14 +190,17 @@
       line-height: 31px;
       letter-spacing: 0.3px;
 
-      &:active :hover {
+      /* &_active {
         opacity: 0.5;
-      }
+      } */
 
       @media screen and (max-width: $mobile){
         font-size: 14px;
       }
+    }
 
+    &_is_label_active {
+      opacity: 0.5;
     }
 
     &_is_list-element {
