@@ -93,7 +93,7 @@
     }
   }
 
-  &__cicle_image {
+  &__image-cicle {
     position: absolute;
     top: 50px;
     right: 50px; 
@@ -115,7 +115,7 @@
     }
   }
 
-  &__cicle_is_boxshadow {
+  &__boxshadow {
     box-shadow: 0 0 0 186px #3530FF;
     opacity: 0.2;
 
@@ -124,61 +124,22 @@
     }
   }
 
-  &__ovals {
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: 1fr 1fr;
-    max-height: 125px;
-    position: absolute;
-    bottom: 20px;
-    left: 745px;
+    &__ovals {
+      position: absolute;
+      top: 531px;
+      left: 723px;
 
-    @media screen and (max-width: $tablet){
-      bottom: 250px;
-      left: 550px;
+      @media screen and (max-width: $tablet){
+        top: 476px;
+        left: 540px;
+      }
+
+      @media screen and (max-width: $mobile){
+        top: 231px;
+        left: 180px;
+        width: 83px;
+      }
     }
-
-    @media screen and (max-width: $mobile){
-      bottom: 167px;
-      left: 200px;
-    }
-  }
-
-  &__oval {
-    border: 4px solid #016450;
-    border-radius: 72px;
-    box-sizing: border-box;
-    width: 129px;
-    height: 64px;
-    background: $bg-color-info;
-    transform: rotate(10.05deg);
-
-    @media screen and (max-width: $mobile){
-      width: 83px;
-      height: 41px;
-    }
-  }
-
-  &__oval:nth-child(2) {
-    border-top: none;
-    margin-top: -6px;
-    margin-left: -7px;
-  }
-
-  &__oval_is_text {
-    font-weight: 600;
-    font-size: 12px;
-    line-height: 14px;
-    color: #016450;
-    text-align: center;
-    margin-top: -5px;
-
-    @media screen and (max-width: $mobile){
-      font-size: 8px;
-      line-height: 9px;
-      margin-top: -2px;
-    }
-  }
 
   &__paragraph {
     font-size: 30px;
