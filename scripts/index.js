@@ -16,7 +16,7 @@ const textInputs = document.querySelectorAll('.info__text-input');
 
 function labelActive(labelElement) {
   labelElement.classList.add('info__label_type_active');
-  checkingStringEmpty();
+  /* checkingStringEmpty(); */
 }
 
 textInputs.forEach(textInput => {
