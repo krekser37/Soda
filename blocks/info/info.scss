@@ -168,6 +168,7 @@
     line-height: 17px;
     letter-spacing: 0.3px;
     color: $color-base;
+    cursor: pointer;
 
     &:active {
       border: none;
@@ -193,10 +194,10 @@
     @media screen and (max-width: $mobile){
       font-size: 14px;
     }
-}
 
-&__label_active {
+  &_type_active {
     opacity: 0.5;
+  }
 }
 
 &__list-element {

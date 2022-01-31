@@ -1,7 +1,7 @@
 @import "../vendor/normalize.css";
 @import "../vendor/fonts.css";
 .page {
-  margin: 0;
+  margin: 0 auto;
   width: 100%;
   max-width: 1440px;
   min-width: 320px;
@@ -740,6 +740,7 @@
   line-height: 17px;
   letter-spacing: 0.3px;
   color: #FFFFFF;
+  cursor: pointer;
 }
 .info__text-input:active {
   border: none;
@@ -765,7 +766,7 @@
     font-size: 14px;
   }
 }
-.info__label_active {
+.info__label_type_active {
   opacity: 0.5;
 }
 .info__list-element {
