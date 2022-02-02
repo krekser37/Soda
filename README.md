@@ -18,10 +18,11 @@
 4. Воспольовалась media queries, чтобы задавать специфические правила для разных размеров экрана.
 5. Глубже разбралась в работе с Git.
 6. Разобралась и использовала SCSS.
+7. При написании JS кода использовала обработчик события (addEventListener), а также метод поиска элемента (forEach).
 
 **Ссылка на GitHub Pages**
 
-* [Ссылка на GitHub Pages](https://krekser37.github.io/Soda/index.html)
+* [Ссылка на GitHub Pages](https://krekser37.github.io/Soda)
 
 
 Спасибо!
